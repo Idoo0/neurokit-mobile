@@ -58,6 +58,18 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  # Declare fonts
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: fonts/Urbanist-Regular.ttf
+        - asset: fonts/Urbanist-Medium.ttf
+          weight: 500
+        - asset: fonts/Urbanist-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Urbanist-Bold.ttf
+          weight: 700
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
