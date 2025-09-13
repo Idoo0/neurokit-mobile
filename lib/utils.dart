@@ -27,6 +27,7 @@ const Color brand100 = Color(0xFFB3E4FA);
 const Color brand50 = Color(0xFFE6F4FD);
 
 // ** STATUS COLOR
+const Color yellow700 = Color(0xFFFFD702);
 const Color yellow600 = Color(0xFFDDC107);
 const Color yellow400 = Color(0xFFFFF6AA);
 const Color yellow50 = Color(0xFFFFFDF0);
