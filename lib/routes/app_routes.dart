@@ -32,7 +32,11 @@ class AppRoutes {
     ),
     GetPage(
       name: RoutesName.badges,
-      page: () => const BadgesPage(),
+      page: () => BadgesPage(
+        onBackPressed: () {
+          Get.back();
+        },
+      ),
       transition: Transition.fade,
     ),
     GetPage(
